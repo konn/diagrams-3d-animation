@@ -32,7 +32,7 @@ library:
   ghc-options:  -Wall
 
 executables:
-  diagrams-3d-animation-exe:
+  example:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -42,6 +42,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - diagrams-3d-animation
+    - diagrams-cairo    
 
 tests:
   diagrams-3d-animation-test:

@@ -13,6 +13,7 @@ extra-deps:
 - diagrams-lib-1.4.2
 - diagrams-solve-0.1.1
 - diagrams-svg-1.4.1.1
+- diagrams-cairo-1.4
 - dual-tree-0.2.1
 - fast-math-1.0.2
 - mfsolve-0.3.2.0

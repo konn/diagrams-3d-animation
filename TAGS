@@ -2,33 +2,41 @@
 ./Setup.hs,15
 main main1,2
 
-./app/Main.hs,52
-module Main Main0,1
-main main2,3
-main main3,4
+./app/Main.hs,179
+module Main Main1,2
+dataSet dataSet8,9
+dataSet dataSet9,10
+anime anime11,12
+anime anime12,13
+toDias toDias14,15
+toDias toDias15,16
+main main17,18
+main main18,19
 
 ./test/Spec.hs,30
 main main0,1
 main main1,2
 
-./src/Diagrams/ThreeD/Plot/Points.hs,68
-module Diagrams.ThreeD.Plot.Points Diagrams.ThreeD.Plot.Points0,1
-
-./src/Diagrams/ThreeD/Animation.hs,600
+./src/Diagrams/ThreeD/Animation.hs,711
 module Diagrams.ThreeD.AnimationDiagrams.ThreeD.Animation3,4
-type ActiveCamera ActiveCamera14,15
-type ActiveCamera n n14,15
-isometricFilm isometricFilm16,17
-isometricFilm isometricFilm18,19
-rotatingAroundZ rotatingAroundZ24,25
-rotatingAroundZ rotatingAroundZ28,29
-uncurry3 uncurry335,36
-uncurry3 uncurry336,37
-animatedPlot animatedPlot38,39
-animatedPlot animatedPlot43,44
-text' text'47,48
-text' text'48,49
-renderScatter3D renderScatter3D50,51
-renderScatter3D renderScatter3D51,52
-scatter3DWithLabel scatter3DWithLabel56,57
-scatter3DWithLabel scatter3DWithLabel58,59
+tr tr16,17
+tr tr17,18
+type ActiveCamera ActiveCamera19,20
+type ActiveCamera n n19,20
+isometricFilm isometricFilm21,22
+isometricFilm isometricFilm23,24
+perspectiveFilm perspectiveFilm28,29
+perspectiveFilm perspectiveFilm30,31
+rotatingAroundZ rotatingAroundZ39,40
+rotatingAroundZ rotatingAroundZ43,44
+animatedPlot animatedPlot50,51
+animatedPlot animatedPlot55,56
+text' text'59,60
+text' text'60,61
+pattern pattern63,64
+axes axes68,69
+axes axes69,70
+renderScatter3D renderScatter3D74,75
+renderScatter3D renderScatter3D75,76
+scatter3DWithLabel scatter3DWithLabel87,88
+scatter3DWithLabel scatter3DWithLabel90,91
