@@ -1,0 +1,56 @@
+name:                diagrams-3d-animation
+version:             0.1.0.0
+github:              "konn/diagrams-3d-animation"
+license:             BSD3
+author:              "Hiromi ISHII"
+maintainer:          "konn.jinro _at_ gmail.com"
+copyright:           "2018 (c) Hiromi ISHII"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on Github at <https://github.com/konn/diagrams-3d-animation#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- diagrams
+- diagrams-lib
+- linear
+- lens
+- active
+
+library:
+  source-dirs: src
+  ghc-options:  -Wall
+
+executables:
+  diagrams-3d-animation-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -Wall
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - diagrams-3d-animation
+
+tests:
+  diagrams-3d-animation-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -Wall
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - diagrams-3d-animation

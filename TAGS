@@ -1,0 +1,34 @@
+
+./Setup.hs,15
+main main1,2
+
+./app/Main.hs,52
+module Main Main0,1
+main main2,3
+main main3,4
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
+
+./src/Diagrams/ThreeD/Plot/Points.hs,68
+module Diagrams.ThreeD.Plot.Points Diagrams.ThreeD.Plot.Points0,1
+
+./src/Diagrams/ThreeD/Animation.hs,600
+module Diagrams.ThreeD.AnimationDiagrams.ThreeD.Animation3,4
+type ActiveCamera ActiveCamera14,15
+type ActiveCamera n n14,15
+isometricFilm isometricFilm16,17
+isometricFilm isometricFilm18,19
+rotatingAroundZ rotatingAroundZ24,25
+rotatingAroundZ rotatingAroundZ28,29
+uncurry3 uncurry335,36
+uncurry3 uncurry336,37
+animatedPlot animatedPlot38,39
+animatedPlot animatedPlot43,44
+text' text'47,48
+text' text'48,49
+renderScatter3D renderScatter3D50,51
+renderScatter3D renderScatter3D51,52
+scatter3DWithLabel scatter3DWithLabel56,57
+scatter3DWithLabel scatter3DWithLabel58,59
